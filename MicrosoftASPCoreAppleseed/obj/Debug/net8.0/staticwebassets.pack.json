@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MicrosoftASPCoreAppleseed.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MicrosoftASPCoreAppleseed.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MicrosoftASPCoreAppleseed.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MicrosoftASPCoreAppleseed.props",
+      "PackagePath": "build\\MicrosoftASPCoreAppleseed.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MicrosoftASPCoreAppleseed.props",
+      "PackagePath": "buildMultiTargeting\\MicrosoftASPCoreAppleseed.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MicrosoftASPCoreAppleseed.props",
+      "PackagePath": "buildTransitive\\MicrosoftASPCoreAppleseed.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

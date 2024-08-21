@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+	<PackageId>Microsoft.AspNetCore.Appleseed</PackageId>
+    <Version>1.0.0</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <Authors>Randall Ramirez</Authors>
+    <Company>Microsoft</Company>
+    <Description>You can use the classes to add intellisense to css and js. It also includes more tools.</Description>
+    <PackageTags>js css intellisense</PackageTags>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+</Project>

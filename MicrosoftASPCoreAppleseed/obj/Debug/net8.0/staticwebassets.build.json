@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "2zhbkcyf7UaDFqxeNW8QvIazkCbS7h8skMFldse0jxI=",
+  "Source": "MicrosoftASPCoreAppleseed",
+  "BasePath": "_content/MicrosoftASPCoreAppleseed",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MicrosoftASPCoreAppleseed\\wwwroot",
+      "Source": "MicrosoftASPCoreAppleseed",
+      "ContentRoot": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\wwwroot\\",
+      "BasePath": "_content/MicrosoftASPCoreAppleseed",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
