@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed.csproj",
-        "projectName": "Microsoft.AspNetCore.Appleseed",
+        "projectName": "Appleseed",
         "projectPath": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed.csproj",
         "packagesPath": "C:\\Users\\ramir\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ramir\\source\\repos\\MicrosoftASPCoreAppleseed\\MicrosoftASPCoreAppleseed\\obj\\",

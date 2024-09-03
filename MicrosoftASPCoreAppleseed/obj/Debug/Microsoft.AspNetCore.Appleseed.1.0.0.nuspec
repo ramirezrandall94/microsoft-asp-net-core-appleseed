@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNetCore.Appleseed</id>
+    <version>1.0.0</version>
+    <authors>Randall Ramirez</authors>
+    <description>You can use the classes to add intellisense to css and js. It also includes more tools.</description>
+    <tags>js css intellisense</tags>
+    <repository type="git" url="https://github.com/ramirezrandall94/microsoft-asp-net-core-appleseed" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ramir\source\repos\MicrosoftASPCoreAppleseed\MicrosoftASPCoreAppleseed\bin\Debug\net8.0\MicrosoftASPCoreAppleseed.dll" target="lib\net8.0\MicrosoftASPCoreAppleseed.dll" />
+  </files>
+</package>

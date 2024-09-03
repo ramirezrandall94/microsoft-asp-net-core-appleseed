@@ -1,27 +1,36 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+	<PropertyGroup>
+		<PackageId>Appleseed</PackageId>
+		<Version>1.0.2</Version>
+		<TargetFramework>net8.0</TargetFramework>
+		<Authors>Randall Ramirez</Authors>
+		<Company>Microsoft</Company>
+		<Description>You can use the classes to add intellisense to css and js. It also includes more tools. This was designed to work with Blazor</Description>
+		<PackageTags>js css intellisense</PackageTags>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/ramirezrandall94/microsoft-asp-net-core-appleseed</RepositoryUrl>
+	</PropertyGroup>
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
 
-  <PropertyGroup>
-	<PackageId>Microsoft.AspNetCore.Appleseed</PackageId>
-    <Version>1.0.0</Version>
-    <TargetFramework>net8.0</TargetFramework>
-    <Authors>Randall Ramirez</Authors>
-    <Company>Microsoft</Company>
-    <Description>You can use the classes to add intellisense to css and js. It also includes more tools.</Description>
-    <PackageTags>js css intellisense</PackageTags>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<ItemGroup>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
-  <ItemGroup>
-    <SupportedPlatform Include="browser" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.7" />
-  </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.7" />
+	</ItemGroup>
 
+	<ItemGroup>
+		<Folder Include="wwwroot\" />
+	</ItemGroup>
 </Project>

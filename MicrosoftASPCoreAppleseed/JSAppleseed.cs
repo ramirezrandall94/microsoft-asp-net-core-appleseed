@@ -303,7 +303,7 @@ namespace Microsoft.AspNetCore.Appleseed
             await JSRuntime.InvokeVoidAsync(_Function_Name.Function_Name, parameter_value);
             return true;
         }
-        public async Task<bool> Call_From_C_Sharp_Void(IJSRuntime JSRuntime)
+        public async Task<bool> Call_From_C_Sharp_Void_no_param(IJSRuntime JSRuntime)
         {
             await JSRuntime.InvokeVoidAsync(_Function_Name.Function_Name);
             return true;
@@ -316,7 +316,7 @@ namespace Microsoft.AspNetCore.Appleseed
             function_call += ")";
             return function_call;
         }
-        public string Get_call_as_string()
+        public string Get_call_as_string_no_param()
         {
             string function_call = Function_Name.Function_Name + "()";
             return function_call;
